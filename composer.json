@@ -1,0 +1,21 @@
+{
+    "name": "ifmo/web",
+    "description": "my project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dimich47",
+            "email": "xotchino@rambler.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ifmo\\Web\\": "src/"
+        }
+    }
+}
